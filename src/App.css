@@ -1,4 +1,6 @@
-html, body, .root {
+html,
+body,
+.root {
   height: 100%;
 }
 
@@ -6,7 +8,8 @@ body {
   line-height: 1.5;
 }
 
-body, .app {
+body,
+.app {
   background: white;
 }
 
@@ -58,17 +61,16 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #2e4b7c url('./icons/add.svg') no-repeat center;
+  background: #2e4b7c url("./icons/add.svg") no-repeat center;
   background-size: 28px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-size: 0;
   outline: 0;
 }
 
 .open-search button:hover {
-  background-color: #3C62A1;
+  background-color: #3c62a1;
 }
-
 
 /* search page */
 
@@ -79,7 +81,7 @@ body, .app {
   left: 0;
   z-index: 5;
   display: flex;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0 6px rgba(0, 0, 0, 0.23);
 }
 
 .search-courses-input-wrapper {
@@ -101,7 +103,7 @@ body, .app {
   left: 15px;
   width: 50px;
   height: 53px;
-  background: white url('./icons/arrow-back.svg') no-repeat center;
+  background: white url("./icons/arrow-back.svg") no-repeat center;
   background-size: 28px;
   font-size: 0;
   border: none;
@@ -159,9 +161,9 @@ body, .app {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #5d75ac url('./icons/arrow-drop-down.svg') no-repeat center;
+  background: #5d75ac url("./icons/arrow-drop-down.svg") no-repeat center;
   background-size: 20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .course-status-changer select {
@@ -176,6 +178,6 @@ body, .app {
 .course-logo {
   width: 128px;
   height: 128px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background: #eee;
 }
