@@ -6,7 +6,7 @@ MyCourses is an application that allows a user (student) to search the CS course
 * Enrolled: a course user is currently taking (in the present)
 * Interested: a course user would like to take later (in the future)
 
-This repository contains the frontend. To run locally
+This repository contains the frontend. To run locally:
 
 * Clone this repository
 * Install dependencies by `npm install`
@@ -17,4 +17,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You must connect the frontend to the backend here [https://courses-api-hw4.herokuapp.com/](https://courses-api-hw4.herokuapp.com/).
 
-You must deploy the frontend and put a link to the deployed at here: [https://???????.netlify.app](https://??????.netlify.app).
+You must deploy the frontend and put a link to the deployed at here: [https://???????.netlify.app](https://???????.netlify.app).
